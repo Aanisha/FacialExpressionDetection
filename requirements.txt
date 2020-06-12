@@ -5,6 +5,4 @@ model_from_json
 camera
 VideoCamera
 flask
-Flask
-render_template
-Response
+
