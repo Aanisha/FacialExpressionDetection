@@ -1,6 +1,6 @@
 numpy
 tensorflow
-model_from_json
+tensorflow.keras.models
 camera
 flask
 
