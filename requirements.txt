@@ -1,4 +1,5 @@
 numpy
+tensorflow
 tensorflow.keras.models
 model_from_json
 camera
