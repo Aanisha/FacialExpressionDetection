@@ -6,8 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<h1>Hello Azure!</h1>"
-"""def index():
+    def index():
     return render_template('index.html')
 
 def gen(camera):
@@ -19,7 +18,7 @@ def gen(camera):
 @app.route('/video_feed')
 def video_feed():
     return Response(gen(VideoCamera()),
-                    mimetype='multipart/x-mixed-replace; boundary=frame')"""
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8000, debug=True)
